@@ -1,0 +1,16 @@
+{
+  "name": "apr-countdown",
+  "version": "1.0.0",
+  "repository": "https://github.com/AdenilsonPR/apr-countdown.git",
+  "author": "Adenilson Prado Raul <adenilson.prado@hotmail.com>",
+  "license": "MIT",
+  "main": "./bin/apr-countdown.js",
+  "types": "./bin/apr-countdown.d.ts",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --cls --transpile-only src/test/app.ts"
+  },
+  "dependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  }
+}
